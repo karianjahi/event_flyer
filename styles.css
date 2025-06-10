@@ -1,66 +1,58 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180vh;
+    min-height: calc(100vh-50px);
 }
 
-.the-header, .footer {
-    width: 30%;
-    margin-left: 10%;
-    background-color: white;
-    margin-right: 20%;
+.header, .date-and-time {
+    width: 15%;
+    /* background-color: blueviolet; */
+    margin-left: 20%;
+    margin-right: 15%;
     text-align: center;
-}
-
-img {
-    margin-left: 3%;
-}
-
-.heading {
-    margin-left: 5%;
-}
-
-.what {
-    width: 30%;
-    margin-left: 10%;
-    margin-right: 20%;
-    text-align: center;
-}
-
-.horiz-line {
-    width: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: solid 1px black;
-    
-}
-
-.second-heading {
     margin-top: 2%;
 }
 
-.birthday {
-    width: 15%;
-    margin-left: 0;
+.date-and-time {
+    margin-top: 0%;
+}
+
+.division {
+    border: 2px solid black;
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+
+.footer {
+    margin-left: 23%;
+}
+
+.events-container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+
+.mylist {
+    line-height: 200%;
+    margin-left: -11%;
 }
 
 .event {
-    display: inline-block;
+    padding-right: 10%;
 }
 
-  .box {
-    display: inline-block;
-    width: 300px;
-    height: 250px;
-    background-color: white;
-    text-align: center;
-    margin-right: 10px;
-    font-size: 100%;
-    vertical-align: top;
-    transform: translateX(160px);
-  }
-
- .footer {
-    margin-top: 20px;
- }
+.section-props {
+    width: 17%;
+    
+}

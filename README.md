@@ -13,8 +13,8 @@ This project is a simple yet well-structured **event flyer** built using **HTML*
   - Use of the **`calc()`** function in CSS to demonstrate dynamic sizing.
 - **Horizontal Rule (`<hr>`)**
   - Styling and using `<hr>` to visually divide content sections.
-- **Responsive Design Basics**
-  - Basic use of relative units (%, `em`, `rem`) for flexible design.
+<!-- - **Responsive Design Basics** -->
+  <!-- - Basic use of relative units (%, `em`, `rem`) for flexible design. -->
 
 ## 🚀 Goals
 
